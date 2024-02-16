@@ -1,0 +1,51 @@
+.header .navbar{
+    position: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 0 1rem;
+    z-index: 1;
+}
+
+.nav-items :hover{
+    padding-bottom: 5px;
+    border-bottom: 3px solid #40A2E3;
+
+}
+
+.nav-items{
+    margin-right: 100px;
+    font-weight: 500;
+    font-size: large;
+    padding: 0.5rem;
+}
+
+
+.navbar-brand{
+    margin-left: 100px;
+    font-weight: 550;
+    font-size: large;
+    padding: 0.5rem;
+}
+
+.navbar-nav .nav-link {
+    margin-right: 30px;
+}
+
+.navbar-nav .nav-link:last-child{
+    margin-right: 0;
+}
+
+@media screen and (max-width: 768px){
+   
+    .navbar-brand{
+        margin-left: 0;
+    }
+
+    .navbar-nav .nav-link{
+        text-align: center;
+        margin-right:0;
+        margin-top: 30px;
+    }
+}
+

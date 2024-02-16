@@ -1,0 +1,39 @@
+.about{
+    background-color: #f8f8f8;
+    margin: auto;
+    padding: 3rem 1rem 0 1rem;
+    width: 100%;
+}
+
+p{
+    padding: 10px;
+}
+
+.about .container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.line {
+    display: block;
+    width: 40px;
+    height: 3px;
+    margin: 5px auto;
+    background-color: #5bb462;
+  }
+
+@media screen and (max-width: 940px) {
+    .about .container{
+        padding: 0 10px;;
+    }
+}
+
+
+
+
+
